@@ -2,7 +2,7 @@
 This is an example project of [SwiftUI](https://developer.apple.com/xcode/swiftui)
 I'm making this app to get more uderstanding how to create shapes in SwiftUI and animate them, all native.
 
-<img src="./Base Assests/App.png">
+<img src="https://github.com/ekuipers1/NativeShapes/blob/master/Base%20Assets/App.png">
 
 - Works with Dark / Light mode and all different device sizes. (iPhone Only)
 - Mountain Section done

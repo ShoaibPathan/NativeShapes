@@ -30,16 +30,18 @@ struct ContentView: View {
                 }
                 VStack(spacing: 140.0) {
                     HStack(spacing: 10.0) {
+                         NavigationLink(destination: Menu_Landscape())
+                        {
                         Base_Landscape()
                             .fill(LinearGradient(gradient: Gradient(colors: [Color.colorGrass, Color.colorMeadow]), startPoint: .bottomTrailing, endPoint: .topLeading))
                             .shadow(radius: 1, y: 1)
                             .frame(width: 44.0, height: 20.0)
                             .padding(.all, 10)
                             .scaleEffect(x: 1, y: -1)
-                        Text("Lanscape - Coming soon")
+                        Text("Lanscape")
                     }
                 }
-                
+                }
                 
                 VStack(spacing: 140.0) {
                     HStack(spacing: 10.0) {

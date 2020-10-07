@@ -35,6 +35,13 @@ struct Base_House: Shape {
 
 struct Base_House_Previews: PreviewProvider {
     static var previews: some View {
-        Base_House()
+        Group {
+            Base_House()
+                .previewLayout(.sizeThatFits)
+                .frame(width: 300.0, height: 300.0)
+            Base_House(offset: 0.5, corner: .topRight)
+                .previewLayout(.sizeThatFits)
+                .frame(width: 200.0, height: 300.0)
+        }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0DDD972524BB61008F2EC5 /* Options_Landscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DDD962524BB61008F2EC5 /* Options_Landscape.swift */; };
+		9F0DDD9A2524BCB2008F2EC5 /* Menu_Landscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0DDD992524BCB2008F2EC5 /* Menu_Landscape.swift */; };
 		9F12342025138D23006E658A /* Options_Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12341F25138D23006E658A /* Options_Mountain.swift */; };
 		9F12342225138DA8006E658A /* Image_Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12342125138DA8006E658A /* Image_Mountain.swift */; };
 		9F12342425138E39006E658A /* Code_Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12342325138E39006E658A /* Code_Mountain.swift */; };
@@ -14,6 +16,11 @@
 		9F1A03F42513891200C922AD /* Base_Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A03F32513891200C922AD /* Base_Mountain.swift */; };
 		9F1A03F6251389B300C922AD /* Animation_Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A03F5251389B300C922AD /* Animation_Mountain.swift */; };
 		9F1A03F825138AF200C922AD /* Menu_Mountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A03F725138AF200C922AD /* Menu_Mountain.swift */; };
+		9F278E19252C6D4E0015DF85 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F278E18252C6D4E0015DF85 /* Square.swift */; };
+		9F278E1E252DAEB10015DF85 /* LighthouseLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F278E1D252DAEB10015DF85 /* LighthouseLight.swift */; };
+		9F328826252C49CF007E5B69 /* Animation_Landscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F328825252C49CF007E5B69 /* Animation_Landscape.swift */; };
+		9F48D229252B189800246B11 /* Image_Landscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48D228252B189800246B11 /* Image_Landscape.swift */; };
+		9F48D22F252B22C100246B11 /* Code_Landscape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F48D22E252B22C100246B11 /* Code_Landscape.swift */; };
 		9F642FAF25135B4600DC79BD /* Base_Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F642FAE25135B4600DC79BD /* Base_Drop.swift */; };
 		9F642FB3251364C200DC79BD /* Base_Curving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F642FB2251364C200DC79BD /* Base_Curving.swift */; };
 		9F6BCCB32512397D00F84226 /* NativeShapes_Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BCCB22512397D00F84226 /* NativeShapes_Colors.swift */; };
@@ -29,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F0DDD962524BB61008F2EC5 /* Options_Landscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options_Landscape.swift; sourceTree = "<group>"; };
+		9F0DDD992524BCB2008F2EC5 /* Menu_Landscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_Landscape.swift; sourceTree = "<group>"; };
 		9F12341F25138D23006E658A /* Options_Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options_Mountain.swift; sourceTree = "<group>"; };
 		9F12342125138DA8006E658A /* Image_Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Mountain.swift; sourceTree = "<group>"; };
 		9F12342325138E39006E658A /* Code_Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_Mountain.swift; sourceTree = "<group>"; };
@@ -36,6 +45,11 @@
 		9F1A03F32513891200C922AD /* Base_Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base_Mountain.swift; sourceTree = "<group>"; };
 		9F1A03F5251389B300C922AD /* Animation_Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_Mountain.swift; sourceTree = "<group>"; };
 		9F1A03F725138AF200C922AD /* Menu_Mountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_Mountain.swift; sourceTree = "<group>"; };
+		9F278E18252C6D4E0015DF85 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		9F278E1D252DAEB10015DF85 /* LighthouseLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighthouseLight.swift; sourceTree = "<group>"; };
+		9F328825252C49CF007E5B69 /* Animation_Landscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_Landscape.swift; sourceTree = "<group>"; };
+		9F48D228252B189800246B11 /* Image_Landscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Landscape.swift; sourceTree = "<group>"; };
+		9F48D22E252B22C100246B11 /* Code_Landscape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_Landscape.swift; sourceTree = "<group>"; };
 		9F642FAE25135B4600DC79BD /* Base_Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base_Drop.swift; sourceTree = "<group>"; };
 		9F642FB2251364C200DC79BD /* Base_Curving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base_Curving.swift; sourceTree = "<group>"; };
 		9F6BCCB22512397D00F84226 /* NativeShapes_Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeShapes_Colors.swift; sourceTree = "<group>"; };
@@ -63,6 +77,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0DDD942524BAB6008F2EC5 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				9F48D22E252B22C100246B11 /* Code_Landscape.swift */,
+				9F48D228252B189800246B11 /* Image_Landscape.swift */,
+				9F0DDD962524BB61008F2EC5 /* Options_Landscape.swift */,
+				9F0DDD992524BCB2008F2EC5 /* Menu_Landscape.swift */,
+				9F328825252C49CF007E5B69 /* Animation_Landscape.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		9F1A03F1251388BD00C922AD /* Mountain */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +129,7 @@
 		9F6C3AE72507D63700B2C1BB /* Landscape */ = {
 			isa = PBXGroup;
 			children = (
+				9F0DDD942524BAB6008F2EC5 /* Examples */,
 				9F8C290E2507D850000D7B5B /* Base_Landscape.swift */,
 			);
 			path = Landscape;
@@ -166,6 +193,8 @@
 				9F6BCCB22512397D00F84226 /* NativeShapes_Colors.swift */,
 				9F9AE8CF24AE415A00D8D442 /* MyColor.swift */,
 				9FE2E90E25231283005D86B9 /* Data.swift */,
+				9F278E18252C6D4E0015DF85 /* Square.swift */,
+				9F278E1D252DAEB10015DF85 /* LighthouseLight.swift */,
 			);
 			path = Extras;
 			sourceTree = "<group>";
@@ -252,16 +281,23 @@
 				9F1A03F42513891200C922AD /* Base_Mountain.swift in Sources */,
 				9F12342225138DA8006E658A /* Image_Mountain.swift in Sources */,
 				9F9AE8B224AE322100D8D442 /* AppDelegate.swift in Sources */,
+				9F0DDD972524BB61008F2EC5 /* Options_Landscape.swift in Sources */,
+				9F278E19252C6D4E0015DF85 /* Square.swift in Sources */,
 				9F8C290F2507D850000D7B5B /* Base_Landscape.swift in Sources */,
 				9F12342025138D23006E658A /* Options_Mountain.swift in Sources */,
 				9F12342425138E39006E658A /* Code_Mountain.swift in Sources */,
 				9F6BCCB32512397D00F84226 /* NativeShapes_Colors.swift in Sources */,
 				9F642FAF25135B4600DC79BD /* Base_Drop.swift in Sources */,
 				9F1A03F6251389B300C922AD /* Animation_Mountain.swift in Sources */,
+				9F328826252C49CF007E5B69 /* Animation_Landscape.swift in Sources */,
 				9F9AE8B424AE322100D8D442 /* SceneDelegate.swift in Sources */,
 				9F1A03DE2513785900C922AD /* Base_House.swift in Sources */,
+				9F48D22F252B22C100246B11 /* Code_Landscape.swift in Sources */,
+				9F278E1E252DAEB10015DF85 /* LighthouseLight.swift in Sources */,
 				9F9AE8B624AE322100D8D442 /* ContentView.swift in Sources */,
+				9F48D229252B189800246B11 /* Image_Landscape.swift in Sources */,
 				9FE2E90F25231283005D86B9 /* Data.swift in Sources */,
+				9F0DDD9A2524BCB2008F2EC5 /* Menu_Landscape.swift in Sources */,
 				9F642FB3251364C200DC79BD /* Base_Curving.swift in Sources */,
 				9F1A03F825138AF200C922AD /* Menu_Mountain.swift in Sources */,
 				9F9AE8D024AE415A00D8D442 /* MyColor.swift in Sources */,

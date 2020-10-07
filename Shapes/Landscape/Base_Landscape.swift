@@ -39,11 +39,24 @@ struct Base_Landscape: Shape {
 
 struct Base_Landscape_Previews: PreviewProvider {
     static var previews: some View {
-        Base_Landscape(yOffset: 0.7)
-            .stroke(Color.red, lineWidth: 5)
-            .frame(height: 500)
-            
-        .padding()
+        Group {
+            Base_Landscape()
+                .frame(width: 300.0, height: 300.0)
+                .previewLayout(.sizeThatFits)
+            Base_Landscape(yOffset: 0.7)
+                .frame(width: 300.0, height: 300.0)
+                .previewLayout(.sizeThatFits)
+            Base_Landscape(yOffset: 3)
+                .frame(width: 300.0, height: 300.0)
+                .previewLayout(.sizeThatFits)
+                .scaleEffect(x: 1, y: -1)
+            Base_Landscape(yOffset: 1.8)
+                .frame(width: 300.0, height: 300.0)
+                .previewLayout(.sizeThatFits)
+            Base_Landscape(yOffset: -1.8)
+                .frame(width: 300.0, height: 300.0)
+                .previewLayout(.sizeThatFits)
+                .scaleEffect(x: 1, y: 1)
+        }.foregroundColor(.blue)
     }
 }
-
